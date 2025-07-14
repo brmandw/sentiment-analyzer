@@ -7,7 +7,6 @@ Proyek ini adalah aplikasi web sederhana menggunakan Flask dan Python, yang terh
 - Input teks melalui antarmuka web
 - Analisis teks menggunakan AI
 - Output ditampilkan ke halaman
-- Konfigurasi rahasia menggunakan `.env`
 
 ## 🚀 Cara Menjalankan
 
