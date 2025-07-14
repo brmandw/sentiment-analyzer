@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}"/>
+</head>
+<body>
+    <div class="box">
+        <h1 class="title">Sentiment Analyzer</h1>
+        <label class="judul">Masukkan komentar Anda untuk dianalisis</label>
+
+        <form method="POST" class="form">
+            <input type="text" class="form-control" name="text">
+            <button type="submit" class="button" name="btn" id="btn">✔</button>
+        </form>
+        <div class="hasil">
+            <q class="output">{{text}}</q>
+            <h2 class="output">{{message}}</h2>
+        </div>
+    </div>
+</body>
+</html>
